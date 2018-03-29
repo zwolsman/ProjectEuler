@@ -1,3 +1,5 @@
+#!/usr/bin/env kscript
+
 val target = 600851475143
 var temp = target
 

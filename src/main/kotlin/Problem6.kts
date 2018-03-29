@@ -1,3 +1,5 @@
+#!/usr/bin/env kscript
+
 import java.lang.Math.pow
 import kotlin.math.abs
 

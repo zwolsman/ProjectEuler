@@ -1,3 +1,5 @@
+#!/usr/bin/env kscript
+
 val divisionMax = 20
 var index = 0
 

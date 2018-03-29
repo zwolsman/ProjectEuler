@@ -1,3 +1,5 @@
+#!/usr/bin/env kscript
+
 import java.util.*
 
 val primes = mutableListOf<Long>()

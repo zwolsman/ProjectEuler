@@ -1,3 +1,4 @@
+#!/usr/bin/env kscript
 
 var highest = -1
 for(x in 100 until 1000) {

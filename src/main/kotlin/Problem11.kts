@@ -1,3 +1,5 @@
+#!/usr/bin/env kscript
+
 typealias Grid = List<Int>
 
 enum class Direction(val step: Int) {

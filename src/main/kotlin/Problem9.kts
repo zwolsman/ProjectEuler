@@ -1,3 +1,5 @@
+#!/usr/bin/env kscript
+
 for(a in 1 until 1000) {
     for(b in 1 until 1000) {
         for(c in 1 until 1000) {

@@ -1,3 +1,5 @@
+#!/usr/bin/env kscript
+
 var current = 0
 var last = 1
 val target = 4_000_000

@@ -52,7 +52,6 @@ enum class Direction(val step: Int) {
             return 0
 
         val numbers = (0 until adjacentNumbers).map { grid[position + step * it].toLong() }
-        println("The numbers in direction $this are $numbers in position $position")
         return numbers.reduce { acc, i -> acc * i }
     }
 }
@@ -81,12 +80,8 @@ val grid = """
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48""".replace("\n", " ").chunked(3).map { it.trim().toInt() }
 
 val max = (0 until grid.size).flatMap { pos ->
-    println()
-
     return@flatMap Direction.values().map {
        it.product(pos, grid)
     }
 }.max()
-println()
-println()
 println("The greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid is $max")

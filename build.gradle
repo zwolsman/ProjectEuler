@@ -16,10 +16,13 @@ apply plugin: 'kotlin'
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    compile "com.github.holgerbrandl:kscript-annotations:1.2"
+    compile "com.andreapivetta.kolor:kolor:0.0.2"
 }
 
 compileKotlin {
